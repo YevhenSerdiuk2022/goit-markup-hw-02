@@ -14,23 +14,37 @@ body {
     letter-spacing: 0.03em;
     color: var(--fonts-color);
 }
+a{
+    text-decoration: none;
+}
+ul,ol,li{
+    list-style: none;
+}
+.elements__title{
+    font-size: 16px;
+    line-height: 1.2;
+}
+.elements__title-item{
+    font-size: 16px;
+    line-height: 1.8; 
+}
 .menu__link,.address__link{
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.2px;
     letter-spacing: 0.02em;
 }
 .menu__link:visited{
     color: var(--brand-color);
 }
-.menu__link:hover,.address__link:hover,.footer-white:hover,.grey:hover{
+.menu__link:hover,.address__link:hover,.grey:hover{
 color: var(--brand-color);
 }
 
-.button-blue:hover,.button-menu:hover {
+.button-blue:hover, .button-menu:hover{
    background: var(--brand-color);
 }
+
 .logo-blue span{
    color: var(--brand-color);
 }
@@ -39,7 +53,6 @@ color: var(--brand-color);
 }
 .menu{
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.2px;
     letter-spacing: 0.02em;
     color: var(--fonts-title-color);
@@ -57,8 +70,7 @@ color: var(--brand-color);
 
         
 .footer-logo{
-    background-color: var(--fon-color);
-    color:var(--white-color);
+   color:var(--white-color);
 }
 .block-text__title{
 
@@ -95,16 +107,7 @@ color: var(--brand-color);
     background-color: var(--brand-color);
     color:var(--white-color);
 }
-.grey{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.8;
-    color: var(--fonts-color);
-}
-
 .our-team__title{
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
@@ -122,16 +125,12 @@ color: var(--brand-color);
 
 
 .block-text__title{
-    font-style: normal;
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
     color: var(--fonts-title-color);
     }
 
 .forexmaple__item-title{
-    font-style: normal;
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -142,8 +141,37 @@ color: var(--brand-color);
     background-color: var(--fon-color);
 }
 .footer-white{
+    font-style: normal;
+    line-height: 1.7;
   color: var(--white-color);
 }
 .footer-grey{
     color: var(--fonts-color);
+}
+.hero,.footer{
+    background-color: var(--fon-color);
+}
+.menu__link, .menu__list {
+}
+
+.header {
+}
+.menu__body {
+    
+}
+.menu-logo {
+}
+.logo-blue {
+}
+
+.menu__item {
+}
+
+.menu {
+}
+.address__list {
+}
+.address__link {
+}
+.address-grey {
 }
