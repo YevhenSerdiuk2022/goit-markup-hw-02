@@ -34,16 +34,15 @@ ul,ol,li{
     line-height: 1.2px;
     letter-spacing: 0.02em;
 }
-.menu__link:visited{
+
+.menu-blue{
     color: var(--brand-color);
 }
 .menu__link:hover,.address__link:hover,.grey:hover{
 color: var(--brand-color);
 }
 
-.button-blue:hover, .button-menu:hover{
-   background: var(--brand-color);
-}
+
 
 .logo-blue span{
    color: var(--brand-color);
@@ -55,7 +54,7 @@ color: var(--brand-color);
     font-weight: 500;
     line-height: 1.2px;
     letter-spacing: 0.02em;
-    color: var(--fonts-title-color);
+   color: var(--fonts-title-color);
 }
 .menu-logo, .footer-logo{
     font-family: 'Raleway';
@@ -85,28 +84,36 @@ color: var(--brand-color);
     background: var(--fon-color);;
 }
 .button-blue{
-    background: var(--brand-color);
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.06em;
     color:var(--white-color);
+    background: var(--brand-color);
+    cursor: pointer;
 }
 .button-blue:hover, .button-blue:focus, .button-blue:active{
-    background:#0771c7 ;
-}
+    background:#085fa7
+   
+    }
 .button-menu{
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     background: var(--background-fon-button);
     border-radius: 4px;
+    cursor: pointer;
 }
-.blue{
-    background-color: var(--brand-color);
-    color:var(--white-color);
-}
+.button-menu:hover{
+    background: var(--brand-color);
+    color: var(--white-color);
+ }
+ .button-menu_blue{
+    background: var(--brand-color);
+    color: var(--white-color);
+ }
 .our-team__title{
     font-weight: 500;
     font-size: 16px;
@@ -136,16 +143,19 @@ color: var(--brand-color);
     letter-spacing: 0.06em;
     color:var(--fonts-title-color);
     }
-
+.address{
+    font-style: normal;
+}
 .address__item{
     background-color: var(--fon-color);
 }
 .footer-white{
-    font-style: normal;
+    cursor: default;
     line-height: 1.7;
   color: var(--white-color);
 }
 .footer-grey{
+   
     color: var(--fonts-color);
 }
 .hero,.footer{
